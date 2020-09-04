@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.single{
+
+  margin-bottom: 3px;
+  height: 90px;
+  border-radius: 10px;
+  border: 0.8px solid black;
+ 
+  list-style: none;
+  
+}
+.brdr{
+  border-radius: 10px;
+  border: 1px solid  #273cb0;
+  margin-bottom: 5px;
+  
+}
+.statewise .row
+
+{margin-left: 0px;
+margin-right: 0px;}
+.statewise
+{
+  
+  border:1px solid #5827b0 ;
+ 
+  border-radius:10px;
+  height:700px;
+  overflow-y: scroll;
+  margin-left: 0px; 
+  margin-right: 0px;
+  
+}
+.txtmed{
+  font-size: 20px;
+}
+.brdrright{
+  border-right:1.5px solid #273cb0;
+}
+.stbtn{
+  background-color:#5827b0;
+  color: white;
+  height: 60px;
+  width: 100%;
+  border-radius:10;
+  font-size:22px;
+  text-transform: uppercase;
+}
+.tottxt{margin-top:5px;font-size: 20px;color:#273cb0;font-weight: bold;}
+.txtmd{
+  font-size:20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .txtmed{
+    font-size: 10px;
+    
+  }
+  .tottxt{
+    font-size: 9px;
+
+  }
+  .statewise{
+    height: 450px;
+  }
+  .stbtn{
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .txtmd{
+    font-size: 7px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
